@@ -10,7 +10,7 @@ export default {
       },
       fontFamily: {
         'nav-text': ['Inter', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        title: ['Baloo 2', 'sans-serif'],
       },
     },
   },

@@ -13,25 +13,97 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-body">
-    <header>
-      <nav
-        class="h-[80px] bg-nav flex justify-between items-center border-b-[2px] px-[7rem] font-nav-text"
-      >
-        <div>
-          <h1 class="text-2xl font-medium">Kursus <span class="bg-secondary p-2 text-xl rounded-xl">Onlineku.</span></h1>
+    <header class="bg-nav border-b-[2px]">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <nav class="h-[80px] flex justify-between items-center font-nav-text">
+          <div>
+            <h1 class="text-2xl font-medium">
+              Kursus
+              <span class="bg-secondary p-2 text-xl rounded-xl">Onlineku.</span>
+            </h1>
+          </div>
+
+          <ul
+            class="flex gap-[32px] text-lg font-normal justify-center items-center"
+          >
+            <li><a href="">Home</a></li>
+            <li><a href="">Tentang Kami</a></li>
+            <li><a href="">Kelebihan</a></li>
+            <li><a href="">Kursus</a></li>
+            <li><a href="">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="h-vh py-28">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="flex justify-center items-center gap-8">
+            <div class="flex flex-col gap-[1.5rem]">
+              <p class="font-normal text-lg font-nav-text">
+                Selamat datang di
+                <span class="text-xl bg-secondary rounded-xl p-2 font-semibold"
+                  >Kursus Onlineku.</span
+                >
+              </p>
+              <h2 class="font-semibold text-5xl font-title">
+                Jelajahi kursus sesuai minat anda, dengan harga terjangkau
+              </h2>
+              <p class="font-normal text-base font-nav-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis, necessitatibus?
+              </p>
+
+              <div class="flex gap-8">
+                <button
+                  class="bg-secondary px-7 py-3 text-base font-nav-text font-normal rounded-lg transition duration-300 hover:bg-amber-600"
+                >
+                  Gabung Sekarang
+                </button>
+                <button
+                  class="bg-transparent px-7 py-3 text-base font-nav-text font-normal rounded-lg border-2 border-secondary transition duration-300 hover:bg-secondary"
+                >
+                  Mulai Kursus
+                </button>
+              </div>
+            </div>
+
+            <div class="w-[70%]">
+              <img src="img/Mathematics-cuate.svg" alt="gamabr-animasi" />
+            </div>
+          </div>
         </div>
 
-        <ul class="flex gap-[32px] text-lg font-normal justify-center items-center">
-          <li><a href="">Home</a></li>
-          <li><a href="">Tentang Kami</a></li>
-          <li><a href="">Kelebihan</a></li>
-          <li><a href="">Kursus</a></li>
-          <li><a href="">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
+        <div class="custom-shape-divider-bottom-1786354546">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+
+        
+      </section>
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8"></div>
+      <section></section>
+    </main>
 
     <script type="module" src="/src/main.js"></script>
   </body>
