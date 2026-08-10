@@ -3,13 +3,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        body: '#FEEDBC',
+        body: '#FFF6DA',
         primary: '#3b82f6',
         secondary: '#f59e0b',
-        nav: '#FEEDBC'
+        nav: '#FFFF'
       },
       fontFamily: {
-        heading: ['Poppins', 'sans-serif'],
+        'nav-text': ['Inter', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
       },
     },
