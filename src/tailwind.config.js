@@ -7,7 +7,8 @@ export default {
         primary: '#3b82f6',
         secondary: '#f59e0b',
         nav: '#FFFF',
-        hero: '#F9B800'
+        hero: '#F9B800',
+        hitam: '#262626'
       },
       fontFamily: {
         'nav-text': ['Inter', 'sans-serif'],
