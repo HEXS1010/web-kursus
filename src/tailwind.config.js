@@ -6,7 +6,8 @@ export default {
         body: '#FFF6DA',
         primary: '#3b82f6',
         secondary: '#f59e0b',
-        nav: '#FFFF'
+        nav: '#FFFF',
+        hero: '#F9B800'
       },
       fontFamily: {
         'nav-text': ['Inter', 'sans-serif'],
