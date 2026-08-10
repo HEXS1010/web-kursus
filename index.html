@@ -22,7 +22,7 @@
     />
   </head>
   <body class="bg-body">
-    <header class="fixed top-0 left-0 w-full bg-nav border-b-[2px]">
+    <header class="fixed top-0 left-0 w-full bg-nav border-b-[2px] z-10">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <nav class="h-[80px] flex justify-between items-center font-nav-text">
           <div>
@@ -49,11 +49,16 @@
       <!-- hero section -->
       <section class="h-dvh py-40">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="flex flex-col justify-center items-center md:flex-row gap-8">
-            <div class="flex flex-col gap-[1.5rem] text-center px-9 md:text-left md:px-0">
+          <div
+            class="flex flex-col justify-center items-center md:flex-row gap-8"
+          >
+            <div
+              class="flex flex-col gap-[1.5rem] text-center px-9 md:text-left md:px-0"
+            >
               <p class="font-normal text-sm font-nav-text md:text-lg">
                 Selamat datang di
-                <span class="text-sm bg-secondary rounded-xl p-2 font-semibold md:text-xl"
+                <span
+                  class="text-sm bg-secondary rounded-xl p-2 font-semibold md:text-xl"
                   >Kursus Onlineku.</span
                 >
               </p>
@@ -65,7 +70,9 @@
                 Reiciendis, necessitatibus?
               </p>
 
-              <div class="flex justify-center items-center gap-8 md:justify-start">
+              <div
+                class="flex justify-center items-center gap-8 md:justify-start"
+              >
                 <button
                   class="bg-secondary px-5 py-3 text-sm font-nav-text font-normal rounded-lg transition duration-300 hover:bg-amber-600 md:px-7 md:text-base"
                 >
@@ -103,16 +110,28 @@
       <!-- About us Section -->
       <section class="bg-hero py-28">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="flex justify-center items-center">
-            <div>
-              <p>Tentang Kami</p>
-              <h3>Cerita di Balik Kursus Onlineku</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illum molestias similique itaque repudiandae corrupti, blanditiis perspiciatis sit obcaecati odit?</p>
+          <div class="flex justify-center items-center gap-12">
+            <div class="flex flex-col gap-[1rem] max-w-xl">
+              <span
+                class="bg-body/50 inline-block w-fit px-4 py-2 rounded-lg font-nav border-[2px] border-yellow-600 font-nav-text font-normal text-base"
+                >Tentang Kami</span
+              >
+              <h3 class="font-title font-semibold text-5xl">
+                Cerita di Balik Kursus Onlineku
+              </h3>
+              <p class="font-nav-text font-normal text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit illum molestias similique itaque repudiandae
+                corrupti, blanditiis perspiciatis sit obcaecati odit?
+              </p>
+              
+              <button class="font-nav-text">Ayo Bergabung</button>
             </div>
 
-            <div class="w-[50%]">
-              <img src="img/Students-cuate.svg" alt="about-us">
+            <div class="w-[67%] md:w-[70%]">
+              <img src="img/Students-cuate.svg" alt="about-us" />
             </div>
+
           </div>
         </div>
       </section>
