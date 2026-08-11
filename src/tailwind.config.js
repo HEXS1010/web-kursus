@@ -8,7 +8,8 @@ export default {
         secondary: '#f59e0b',
         nav: '#FFFF',
         hero: '#F9B800',
-        hitam: '#262626'
+        hitam: '#262626',
+        footer: '#FFF1C9'
       },
       fontFamily: {
         'nav-text': ['Inter', 'sans-serif'],
