@@ -2,6 +2,8 @@
 @import "tailwindcss";
 @config "./tailwind.config.js";
 
+
+/* shape 1 */
 .custom-shape-divider-bottom-1786354546 {
   position: absolute;
   bottom: -2px;
@@ -25,6 +27,7 @@
   fill: #f9b800;
 }
 
+/* shape 2 */
 .custom-shape-divider-top-1786360274 {
   position: absolute;
   top: 0;
@@ -40,8 +43,32 @@
   width: calc(100% + 1.3px);
   height: 140px;
   transform: rotateY(180deg);
+  /* z-index: -1; */
 }
 
 .custom-shape-divider-top-1786360274 .shape-fill {
   fill: #f9b800;
+}
+
+/* shape 3 */
+.custom-shape-divider-top-1786427014 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1786427014 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+    transform: rotateY(180deg);
+    /* z-index: -1; */
+}
+
+.custom-shape-divider-top-1786427014 .shape-fill {
+    fill: #262626;
 }
