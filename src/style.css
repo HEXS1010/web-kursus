@@ -69,6 +69,28 @@
     /* z-index: -1; */
 }
 
+/* shapw 4 */
 .custom-shape-divider-top-1786427014 .shape-fill {
     fill: #262626;
+}
+
+.custom-shape-divider-top-1786458101 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1786458101 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1786458101 .shape-fill {
+    fill: #F9B800;
 }
