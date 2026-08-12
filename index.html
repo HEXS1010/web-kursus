@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-white">
+  <body class="bg-body">
     <header class="fixed top-0 left-0 w-full bg-nav border-b-[2px] z-60">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <nav class="h-[80px] flex justify-between items-center font-nav-text">
@@ -146,8 +146,8 @@
       <!-- kelebihan -->
       <section>
         <div class="relative max-w-[90rem] mx-auto">
-          <div class="bg-hitam flex justify-center items-center gap-12">
-            <div class="flex flex-col gap-5 text-white">
+          <div class="bg-hitam flex justify-center items-center gap-8 px-12">
+            <div class="flex flex-col gap-5 text-white mt-32">
               <span
                 class="bg-body inline-block w-fit px-4 py-2 rounded-lg font-nav border-[2px] border-yellow-600 text-black font-nav-text font-normal text-base"
                 >Kelebihan</span
@@ -167,9 +167,9 @@
               </button>
             </div>
 
-            <div class="grid grid-cols-2 gap-12">
+            <div class="grid grid-cols-2 grid-rows-[auto_minmax(300px,1fr)_100px] gap-9 z-50 pt-36">
               <div
-                class="flex flex-col gap-3 bg-nav rounded-4xl px-9 py-12 translate-y-[0px]"
+                class="flex flex-col justify-center gap-3 bg-nav rounded-4xl px-9 py-12"
               >
                 <h4 class="font-title font-bold text-5xl">
                   1<span class="text-5xl text-hero">.</span>
@@ -183,7 +183,7 @@
                 </p>
               </div>
               <div
-                class="flex flex-col gap-3 bg-hero rounded-4xl px-9 py-12 translate-y[0]"
+                class="flex flex-col gap-3 bg-hero rounded-4xl px-9 py-12 translate-y-[3rem]"
               >
                 <h4 class="font-title font-bold text-5xl">
                   2<span class="text-5xl text-nav">.</span>
@@ -191,13 +191,13 @@
                 <p class="font-nav-text font-semibold text-2xl mt-[1.5rem]">
                   Kursus yang Menarik
                 </p>
-                <p>
+                <p class="font-nav-text font-normal text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Consectetur, eligendi.
                 </p>
               </div>
               <div
-                class="flex flex-col gap-3 bg-hero rounded-4xl px-9 py-12 translate-y-[0]"
+                class="flex flex-col gap-3 bg-hero rounded-4xl px-9 py-12"
               >
                 <h4 class="font-title font-bold text-5xl">
                   3<span class="text-5xl text-nav">.</span>
@@ -211,7 +211,7 @@
                 </p>
               </div>
               <div
-                class="flex flex-col gap-3 bg-nav rounded-4xl px-9 py-12 translate-y-[0]"
+                class="flex flex-col gap-3 bg-nav rounded-4xl px-9 py-12 translate-y-[3rem]"
               >
                 <h4 class="font-title font-bold text-5xl">
                   4<span class="text-5xl text-hero">.</span>
@@ -240,7 +240,7 @@
             </svg>
           </div>
 
-          <div
+          <!-- <div
             class="absolute flex bg-nav -bottom-96 left-1/2 -translate-x-1/2 w-6xl h-84 px-20 py-12 rounded-4xl border-2 gap-16 justify-between items-center z-40"
           >
             <div class="w-[40%]">
@@ -260,14 +260,14 @@
                 -Socrates
               </figcaption>
             </figure>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <!-- kursus section -->
-      <section class="relative bg-hero py-52">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="flex justify-center items-center gap-36 mt-36">
+      <section>
+        <div class="relative max-w-[90rem] mx-auto">
+          <div class=" bg-hero flex justify-center items-center gap-20 px-12 pt-40 z-50">
             <div class="flex flex-col gap-4">
               <span
                 class="bg-body inline-block w-fit px-4 py-2 rounded-lg font-nav border-[2px] border-yellow-600 text-black font-nav-text font-normal text-base"
@@ -317,8 +317,8 @@
               </button>
             </div>
 
-            <div class="w-[50%]">
-              <img src="img/Notebook-cuate.svg" alt="" />
+            <div class="w-[70%]">
+              <img src="img/Notebook-cuate.svg" alt="gambar-kursus" />
             </div>
           </div>
 
@@ -339,9 +339,9 @@
       </section>
 
       <!-- FQA -->
-      <section class="relative py-48 bg-hitam">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div class="flex flex-col gap-9">
+      <section>
+        <div class="relative bg-hitam max-w-[90rem] mx-auto">
+          <div class="flex flex-col gap-9 pt-36">
             <div class="flex flex-col justify-center items-center gap-6">
               <span
                 class="bg-body inline-block w-fit px-4 py-2 rounded-lg font-nav border-[2px] border-yellow-600 text-black font-nav-text font-normal text-base"
@@ -418,9 +418,9 @@
     </main>
 
     <!-- footer -->
-    <footer class="relative bg-footer pt-40 pb-12">
-      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center w-6xl mt-16">
+    <footer>
+      <div class="relative bg-footer max-w-[90rem] mx-auto">
+        <div class="flex justify-between items-center mt-16">
           <div>
             <h6 class="font-title font-bold text-4xl">
               Selamat Kursus Onlinenya. <br />
@@ -444,6 +444,7 @@
           </p>
           <p class="font-nav-text font-medium text-base">design by hexs</p>
         </div>
+        
         <div class="custom-shape-divider-top-1786460075">
           <svg
             data-name="Layer 1"

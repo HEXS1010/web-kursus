@@ -44,7 +44,7 @@
   width: calc(100% + 1.3px);
   height: 140px;
   transform: rotateY(180deg);
-  /* z-index: -1; */
+  z-index: 1;
 }
 
 .custom-shape-divider-top-1786360274 .shape-fill {
